@@ -4,7 +4,9 @@
   "description": "Secure transaction app",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "start": "nodemon src/index.js ",
+    "deploy": "node src/index.js ",
+    "test": "mocha src/test/*js --timeout 60000 --exit"
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,15 @@
   },
   "homepage": "https://github.com/angelapriyadharshini/secure-transaction#readme",
   "dependencies": {
+    "awilix": "^4.2.6",
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.0.1"
   }
 }
