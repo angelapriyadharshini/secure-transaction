@@ -10,6 +10,10 @@ module.exports = function () {
     },
     getServerConfig: function () {
       return config.serverConfig;
+    },
+    getErrorConfig: function () {
+      return config.errorConfig;
     }
   }
+  
 }

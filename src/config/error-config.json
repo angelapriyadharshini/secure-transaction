@@ -1,0 +1,22 @@
+{
+  "default": {
+    "STATUS": "500",
+    "DESCRIPTION": "Internal Server Error"
+  },
+  "E001": {
+    "STATUS": "400",
+    "DESCRIPTION": "Bad Request"
+  },
+  "E002": {
+    "STATUS": "404",
+    "DESCRIPTION": "The requested resource was not found"
+  },
+  "E003": {
+    "STATUS": "204",
+    "DESCRIPTION": "No Content"
+  },
+  "E004": {
+    "STATUS": "200",
+    "DESCRIPTION": "No data available"
+  }
+}
